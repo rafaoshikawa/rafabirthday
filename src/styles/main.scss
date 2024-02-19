@@ -25,7 +25,14 @@ body {
   box-shadow: -8px 7px 27px 0px rgba(0, 0, 0, 0.45);
   -webkit-box-shadow: -8px 7px 27px 0px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: -8px 7px 27px 0px rgba(0, 0, 0, 0.45);
+
+  .data-niver {
+    font-size: 1.5rem;
+    display: block;
+    color: #999999;
+  }
 }
+
 .text-conteudo {
   font-size: 1.5rem;
   background-color: #edf2f7;
@@ -63,12 +70,13 @@ img {
     gap: 10px;
     text-align: center;
   }
-  span {
+
+  &__contador {
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
-    color: #000000;
+    color: #111;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
   }
   &__button {
